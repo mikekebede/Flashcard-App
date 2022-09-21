@@ -8,7 +8,7 @@
 ### App Walk-though
 emove this paragraph after after adding gif)
 
-<img src="https://recordit.co/DavIeICFed" width=200><br>
+<img src="http://g.recordit.co/DavIeICFed.gif" width=200><br>
 
 ## Required
 - [X] Create New Project in Android Studio
