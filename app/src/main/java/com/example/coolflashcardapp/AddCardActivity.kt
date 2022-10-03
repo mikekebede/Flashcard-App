@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.ImageView
+import com.google.android.material.snackbar.Snackbar
 
 class AddCardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +26,7 @@ class AddCardActivity : AppCompatActivity() {
             data.putExtra("ANSWER_KEY", answerString)
 
             setResult(RESULT_OK, data)
+
             finish()
         }
         val cancelButton=findViewById<ImageView>(R.id.flashcard_cancel_button)

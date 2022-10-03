@@ -11,6 +11,7 @@ import android.widget.TextView
 //import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         flashAnswer.setOnClickListener {
            flashQuestion.visibility = View.VISIBLE
             flashAnswer.visibility = View.INVISIBLE
+            Log.i("Yessir" , "it was clicked")
+
         }
 
 
@@ -45,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
                 flashQuestion.text=questionString
                 flashAnswer.text=answerString
+
 
                 Log.i( "Mike :MainActivity", "Question : $questionString" )
                 Log.i( "Mike :MainActivity", "Question : $answerString" )
@@ -62,6 +66,8 @@ class MainActivity : AppCompatActivity() {
 
             Log.i("Yesigat" , "it was clicked")
         }
+
+
 
     }
 }
