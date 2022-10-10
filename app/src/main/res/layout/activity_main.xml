@@ -32,6 +32,16 @@
         android:src="@drawable/add_icon"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+    <ImageView
+        android:id="@+id/nextflash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next_button"
+        android:layout_below="@+id/flashcard_question"
+
+        android:layout_alignParentEnd="true" />
+
+
 
 
 
